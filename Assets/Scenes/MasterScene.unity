@@ -755,7 +755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 85498750}
-  scene: Scene3
+  scene: 3
 --- !u!4 &1090101010
 Transform:
   m_ObjectHideFlags: 0
@@ -919,7 +919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 1814230164}
-  scene: Scene2
+  scene: 2
 --- !u!4 &1575929426
 Transform:
   m_ObjectHideFlags: 0
@@ -964,7 +964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 1295610187}
-  scene: Scene1
+  scene: 1
 --- !u!4 &1694370809
 Transform:
   m_ObjectHideFlags: 0

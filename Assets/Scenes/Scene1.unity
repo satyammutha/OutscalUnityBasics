@@ -675,7 +675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 900845151}
-  scene: MasterScene
+  scene: 0
 --- !u!4 &1824738428
 Transform:
   m_ObjectHideFlags: 0

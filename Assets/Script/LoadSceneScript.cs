@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class LoadSceneScript : MonoBehaviour
 {
     public Button button;
-    public string scene;
+    public int scene;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +16,16 @@ public class LoadSceneScript : MonoBehaviour
 
     private void OnButtonClick()
     {
-        SceneManager.LoadScene(scene);
+        int intSaveSceneNo = SceneManager.GetActiveScene().buildIndex;
+        if (SceneManager.GetActiveScene().buildIndex != 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - intSaveSceneNo);
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + scene);
+        }
+
     }
 
     // Update is called once per frame
